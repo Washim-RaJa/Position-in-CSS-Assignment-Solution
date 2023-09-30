@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Game</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    .main-page{
+        width: 99.90%;
+        height: 600px;
+        border: 2px solid #000000;
+        position: relative;
+    }
+    .heading{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        margin-top: 5px;
+    }
+    .pic-1,.pic-2,.pic-3,.pic-4,.pic-5{
+        border: 3px solid #000000;
+        border-radius: 7px;
+        position: absolute;
+        
+    }
+    .pic-1{
+        top: 130px;
+        left: 130px;
+        z-index: 5;
+    }
+    .pic-2{
+        top: 100px;
+        left: 100px;
+        z-index: 4;
+    }
+    .pic-3{
+        top: 70px;
+        left: 70px;
+        z-index: 3;
+    }
+    .pic-4{
+        top: 40px;
+        left: 40px;
+        z-index: 2;
+    }
+    .pic-5{
+        top: 10px;
+        left: 10px;
+        z-index: 1;
+    }
+    .pic-2:hover{
+        z-index: 999;
+    }
+    .pic-3:hover{
+        z-index: 999;
+    }
+    .pic-4:hover{
+        z-index: 999;
+    }
+    .pic-5:hover{
+        z-index: 999;
+    }
+</style>
+<body>
+    <main class="main-page">
+        <h1 class="heading">Hover To Unveil The Pokemon</h1>
+        <img src="p1.jpg" alt="" class="pic-1"/>
+        <img src="p2.jpg" alt="" class="pic-2"/>
+        <img src="p3.jpg" alt="" class="pic-3"/>
+        <img src="p4.jpg" alt="" class="pic-4"/>
+        <img src="p5.jpg" alt="" class="pic-5"/>
+    </main>
+</body>
+</html>
